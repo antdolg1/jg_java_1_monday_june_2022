@@ -1,0 +1,6 @@
+Подключите к среде разработки IntelliJ Idea
+установленную на своём компьютере JDK.
+
+https://www.jetbrains.com/help/idea/sdk.html#set-up-jdk
+
+https://guides.codepath.com/android/setting-up-intellij-idea
