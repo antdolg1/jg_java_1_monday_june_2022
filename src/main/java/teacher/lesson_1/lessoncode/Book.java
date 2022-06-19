@@ -6,6 +6,7 @@ class Book {
 
         System.out.println("Book!!");
         System.out.println("Testing PR in GitHub");
+        System.out.println("Testing PR in GitHub 2");
 
     }
 }
