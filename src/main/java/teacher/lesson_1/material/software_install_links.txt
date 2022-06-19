@@ -1,0 +1,9 @@
+Git (latest version)
+https://git-scm.com/downloads
+
+JDK (latest version)
+https://adoptopenjdk.net/installation.html
+
+IntelliJ Idea Community Edition (latest version)
+https://www.jetbrains.com/idea/download/
+
