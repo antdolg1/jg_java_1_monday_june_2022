@@ -76,12 +76,3 @@
 * [Clean Code](https://isbnsearch.org/isbn/9780132350884)
 * [Head First Object-Oriented Analysis and Design](https://isbnsearch.org/isbn/9780596008673)
 * [Head First Software Development](https://isbnsearch.org/isbn/9780596527358)
-
----
-
-#### Дополнительные упражнения
-
-* [W3Resource](https://www.w3resource.com/java-exercises/)
-* [ProjectEuler](https://projecteuler.net/)
-* [LeetCode](https://leetcode.com/)
-* [HackerRank](https://www.hackerrank.com/)
