@@ -1,0 +1,6 @@
+Скачайте на свой локальный компьютер проект из GitHub.
+
+https://www.jetbrains.com/help/idea/manage-projects-hosted-on-github.html#clone-from-GitHub
+
+Если уже открывали какой-либо проект, то необходимо выбрать:
+File --> New --> Project From Version Control...
