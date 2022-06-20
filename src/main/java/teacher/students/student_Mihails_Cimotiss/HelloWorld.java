@@ -1,4 +1,4 @@
-package main.java.teacher.students.student_mihail_cs;
+package main.java.teacher.students.student_Mihails_Cimotiss;
 
 public class HelloWorld {
 
