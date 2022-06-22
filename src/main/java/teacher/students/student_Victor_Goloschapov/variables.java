@@ -1,7 +1,7 @@
 package main.java.teacher.students.student_Victor_Goloschapov;
 
 public class variables {
-    public static void main (String args[]) { //main function
+    public static void main (String[] args) { //main function
         int x = 10,
             y = 20;
         var z = 25; // no need to add data type
