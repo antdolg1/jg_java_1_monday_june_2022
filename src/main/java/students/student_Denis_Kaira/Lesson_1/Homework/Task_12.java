@@ -6,8 +6,10 @@ public class Task_12 {
 
         final int a =50;
         final int b =3;
+        //Нет пробелов после знака `=`
 
         System.out.println(a * b );
+        //Лишний пробел после переменной `b`
 
     }
 }
