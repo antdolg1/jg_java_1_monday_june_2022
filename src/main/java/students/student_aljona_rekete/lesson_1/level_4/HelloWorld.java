@@ -1,4 +1,4 @@
-package main.java.students.student_aljona_rekete;
+package main.java.students.student_aljona_rekete.lesson_1.level_4;
 
 public class HelloWorld {
 

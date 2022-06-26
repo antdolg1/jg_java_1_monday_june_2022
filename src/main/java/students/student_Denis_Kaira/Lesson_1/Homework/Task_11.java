@@ -15,7 +15,9 @@ public class Task_11 {
         final int c = 50;
         final int g = 3;
 
-        System.out.println(c / g );
+        System.out.println(c / g);
+        //Давайте будем сразу привыкать правильно оформлять код, без лишних пустых строк и пробелов.
+        //После переменной `g` лишний пробел.
 
     }
 }
