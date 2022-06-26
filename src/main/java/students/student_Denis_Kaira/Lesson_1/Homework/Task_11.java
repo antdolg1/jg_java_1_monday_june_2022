@@ -8,14 +8,11 @@ public class Task_11 {
         final int b = 36;
 
         System.out.println(a + b);
-
-
         System.out.println();
 
         final int c = 50;
         final int g = 3;
-
-        System.out.println(c / g );
+        System.out.println(c / g);
 
     }
 }
