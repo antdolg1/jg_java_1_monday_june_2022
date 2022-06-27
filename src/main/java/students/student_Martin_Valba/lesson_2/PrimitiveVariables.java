@@ -39,7 +39,6 @@ public class PrimitiveVariables {
         System.out.println("very " + "hot " + "day ");
         System.out.println("very hot day");
 
-        int b = 344;
 
 
 
