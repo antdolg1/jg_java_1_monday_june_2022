@@ -14,5 +14,4 @@ public class Task_11 {
         System.out.println("Результат:");
         System.out.println(c / d);
     }
-
 }
