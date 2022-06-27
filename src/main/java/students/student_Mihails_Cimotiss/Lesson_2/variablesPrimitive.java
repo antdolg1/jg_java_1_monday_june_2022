@@ -40,7 +40,7 @@ public class variablesPrimitive {
         System.out.println();
 
         char charNumber = '7';
-        System.out.println( +charNumber + charNumber + " because 7 is 55 in ascii" );
+        System.out.println( charNumber + charNumber + " because 7 is 55 in ascii" );
 
 
     }
