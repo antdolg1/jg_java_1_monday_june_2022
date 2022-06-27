@@ -8,5 +8,6 @@ public class Task_12 {
 
         System.out.println("Результат:");
         System.out.println(a * b);
+
 }
 }
