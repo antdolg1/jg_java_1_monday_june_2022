@@ -1,4 +1,4 @@
-package main.java.teacher.students.student_Mihails_Cimotiss.Lesson_2;
+package main.java.students.student_Mihails_Cimotiss.Lesson_2;
 public class variablesPrimitive {
     public static void main(String[] args) {
         byte myBite;
