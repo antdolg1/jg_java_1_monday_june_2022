@@ -62,6 +62,8 @@
 
 #### Записи лекций
 
+* [Лекция 1](https://www.youtube.com/watch?v=n094gyt28Qs)
+
 ---
 
 #### Книги
@@ -76,3 +78,10 @@
 * [Clean Code](https://isbnsearch.org/isbn/9780132350884)
 * [Head First Object-Oriented Analysis and Design](https://isbnsearch.org/isbn/9780596008673)
 * [Head First Software Development](https://isbnsearch.org/isbn/9780596527358)
+
+---
+
+#### Обратная связь
+
+* [Telegram](https://t.me/+_CTfI-EiGlJiN2I8)
+* [WhatsApp](https://chat.whatsapp.com/H1OIH6aNzvsKem4J4lDdi5)

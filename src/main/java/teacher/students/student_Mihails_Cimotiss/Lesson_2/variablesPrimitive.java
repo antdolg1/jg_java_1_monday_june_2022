@@ -3,15 +3,15 @@ public class variablesPrimitive {
     public static void main(String[] args) {
         byte myBite;
         myBite = 8;
-        System.out.println("myByte value is:" + myBite);
+        System.out.println("myByte value is:" +myBite);
         int myInt;
         myInt = 32000;
-        System.out.println("myByte value is:"  +myInt);
+        System.out.println("myInt value is:"  +myInt);
         short myShort = 100;
-        System.out.println("myByte value is:" + myShort);
+        System.out.println("myShort value is:" +myShort);
 
         long myLong = 1_000_000;
-        System.out.println("myByte value is:" + myLong);
+        System.out.println("myLong value is:" +myLong);
 
         float myFloat = 3.14f;
         double myDouble = 3.54;
