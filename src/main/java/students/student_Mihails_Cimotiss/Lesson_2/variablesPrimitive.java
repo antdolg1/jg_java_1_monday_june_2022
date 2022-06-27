@@ -27,12 +27,20 @@ public class variablesPrimitive {
         char myChar = 'B';
         System.out.println ("char is not needed: " +myChar);
 
-        char char2 = '\u0042';
+        char char2 = '\u0052';
         System.out.println("char is not needed: " +char2);
 
         char char3 = '\u0042';
         System.out.printf("char is not needed: " +char3);
-        System.out.printf(char3);
+
+        System.out.println();
+
+        System.out.println ("text" + " text2" + " text3");
+
+        System.out.println();
+
+        char charNumber = '7';
+        System.out.println( +charNumber + charNumber + " because 7 is 55 in ascii" );
 
 
     }
