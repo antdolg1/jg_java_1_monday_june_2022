@@ -4,6 +4,7 @@ public class PrimitiveVariables {
     public static void main(final String[] args) {
 
         final int a = 2;
+        final int b = 2;
 
     }
 }
