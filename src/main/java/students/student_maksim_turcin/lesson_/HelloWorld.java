@@ -1,4 +1,4 @@
-package main.java.students.student_maksim_turcin;
+package main.java.students.student_maksim_turcin.lesson_;
 
 public class HelloWorld{
     public static void main (final String[] args) {
