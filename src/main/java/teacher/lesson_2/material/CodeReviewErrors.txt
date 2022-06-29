@@ -1,0 +1,218 @@
+WARNING: старайтесь в названии класса не использовать нижние подчёркивания.
+
+class Task1_mathematical_operations {
+
+BETTER: Task1MathematicalOperations
+
+-----------------------------------------------------------
+
+WARNING: следите за форматированием кода, плохо отформатированный
+код плохо читать. Правила форматирования кода (отступы) придуманы
+для того, чтобы помочь человеку быстрее разобраться в программном
+коде, они полностью игнорируются компилятором при компиляции.
+
+		class BankAccount {
+    public static void main(String[] args) {
+
+}
+
+
+    }
+
+BETTER:
+
+class BankAccount {
+    public static void main(String[] args) {
+
+    }
+}
+
+--------------------------------------------------------
+
+WARNING: плохое название переменной. О чём говорит название
+переменной "a"? Если программа будет большой, а код длинным,
+то встретив где в середине кода название переменной "a"
+человеку не будет понятно что это за переменная и для чего
+она предназначена. Название переменной должно сразу говорить
+для чего эта переменная была создана и что в ней хранится.
+
+System.out.print("Enter number: ");
+int a = scanner.nextInt();
+
+double r = scanner.nextDouble();
+double p = 3.14159;
+
+BETTER:
+
+System.out.print("Enter number: ");
+int number = scanner.nextInt();
+
+double radius = scanner.nextDouble();
+double pi = 3.14159;
+
+-------------------------------------------------------
+
+WARNING: Совмещение вычисления формулы и вывод на консоль
+в одной строке. Да, код программы позволяет записать в
+одной строке много операций (сложение, умножение,
+конкатенация строк и вывод на консоль). Эта конструкция
+понятна для компилятора, но ни для человека. Когда
+программист читает код, он хочет видеть в каждой строке
+одну команду, тогда она будет проста и понятна. Легче
+прочитать и понять программу на 100 строк кода, в которой
+каждая строка содержит одну команду, чем программму на
+20 строк кода в которой каждая строка содержит 3 - 5 команд.
+Помните, что код программмы мы пишем для человека! Для того,
+чтобы человеку было проще с ним разобраться, понять и в последствии
+внести в него изменения.
+
+System.out.println("Perimeter= "+2*p*r);
+System.out.println("Space= "+p*r*r);
+
+BETTER:
+
+double perimeter = 2 * p * r;
+double space = p * r * r;
+
+System.out.println("Perimeter = " + perimeter);
+System.out.println("Space = " + space);
+
+-------------------------------------------------------------------
+
+WARNING: делайте отступы между арифметическими операциями
+для лучшего чтения кода программы.
+
+2*p*r
+
+BETTER: 2 * p * r
+
+--------------------------------------------------------------------
+
+WARNING: при определении типа результата операции Java из всех
+переменных участвующих в выражении выбирает самый широкий тип.
+Если все переменные (в том числе и само число 3) являются целыми
+типами данных, то вычисляя правую часть выражения Java выберет
+для результата тип данных int, и только после того как правая
+часть полностью будет выполнена и результат будет сохранён в
+памяти как int (целое число), только тогда Java посмотрит на
+тип данных переменной double average (слева) и преобразует
+int в double и результат преобразования сохранит в переменной average.
+Это означает, что в переменной average вы никогда не получите
+число с дробной частью так как при вычислении правой части
+промежуточный результат будет сохраняться в памяти в int.
+
+int firstNumber = ...;
+int secondNumber = ...;
+int thirdNumber = ...;
+
+double average = (firstNumber + secondNumber + thirdNumber) / 3;
+
+BETTER:
+
+int firstNumber = ...;
+int secondNumber = ...;
+int thirdNumber = ...;
+
+double average = (firstNumber + secondNumber + thirdNumber) / 3.0D;
+
+3.0D - означает, что это число представлено в типе данных double.
+В таком случае справа самым широким типом данных из всех окажется
+именно double и при вычислении дробная часть не потеряется.
+
+-----------------------------------------------------------------
+
+WARNING: не добавляйте в название переменной ее тип данных.
+Находясь в любом месте программы наведите курсор на переменную
+и нажмите комбинацию Ctrl + Q, вы увидите подсказку о типе
+данных переменной.
+
+double secondDoubleNumber = scanner.nextDouble();
+
+BETTER:
+
+double secondNumber = scanner.nextDouble();
+
+-----------------------------------------------------------------
+
+WARNING: используйте только один стиль для расставления фигурных
+скобок. Или ставьте скобки на той же строке в конце или всегда на
+новой строке. Лучший вариант - ставьте фигурные скобки всегда
+в конце строки. Это улучшит читаемость кода.
+
+public class Task_8 {
+    public static void main(String[] args)
+    {
+
+BETTER:
+
+public class Task_8 {
+    public static void main(String[] args) {
+
+----------------------------------------------------------------
+
+WARNING: давайте корректные названия переменным!
+Названия должны показывать, что хранится в этих переменных,
+а не быть фейками вводящими в заблуждение.
+double sum = enterDoubleNumber * 2 * 3.1415;  // Разве это сумма?
+double sum2 = enterDoubleNumber * enterDoubleNumber  * 3.1415;  // Разве это сумма?
+
+
+    System.out.println("Enter Radius:");
+    double enterDoubleNumber = scanner.nextDouble();
+
+    double sum = enterDoubleNumber * 2 * 3.1415;
+    System.out.println("Perimeter is = " + sum);
+
+    double sum2 = enterDoubleNumber * enterDoubleNumber  * 3.1415;
+    System.out.println("Area is = " + sum2);
+
+
+BETTER:
+
+    System.out.println("Enter Radius:");
+    double radius = scanner.nextDouble();
+
+    double perimeter = radius * 2 * 3.1415;
+    System.out.println("Perimeter is = " + perimeter);
+
+    double area = radius * radius  * 3.1415;
+    System.out.println("Area is = " + area);
+
+-------------------------------------------------------------------
+
+WARNING: не используйте static inner classes, вы еще не
+понимаете их смысл и не знаете для чего они используются.
+
+public class Task_23 {  static class AttentionPlease {
+    public static void main(String[] args) {
+        System.out.println("Code outside the method will not compile!");
+
+    }
+}
+}
+
+BETTER:
+
+public class Task_23 {
+    public static void main(String[] args) {
+        System.out.println("Code outside the method will not compile!");
+    }
+}
+
+----------------------------------------------------------------
+
+WARNING: не используйте в названии переменных (особенно в их начале)
+нижнее подчёркивание. Этот стиль программирования часто используется
+в языке С++, а на Java так лучше не делать. Не загружайте код
+программы дополнительными символами.
+
+    public String setValues(String _bookName, String _bookGenre, int _bookID, int _bookNumber, int[] _cordPlaced) {
+        String param = (_bookName + _bookGenre + _bookID + _bookNumber);
+
+
+BETTER:
+
+    public String setValues(String bookName, String bookGenre, int bookID, int bookNumber, int[] cordPlaced) {
+        String param = (bookName + bookGenre + bookID + bookNumber);
+
+------------------------------------------------------------------
