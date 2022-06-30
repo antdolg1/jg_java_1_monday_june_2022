@@ -29,5 +29,6 @@ public class Variables {
 
         char myChar = 'B';
         System.out.println("myChar is value is: " + myChar);
+
     }
 }
