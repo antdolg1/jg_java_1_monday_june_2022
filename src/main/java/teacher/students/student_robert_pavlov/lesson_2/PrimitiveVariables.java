@@ -27,5 +27,6 @@ public class PrimitiveVariables {
         char myChar = 'b';
                 System.out.println("myChar value is: " + myChar);
 
+
     }
 }
