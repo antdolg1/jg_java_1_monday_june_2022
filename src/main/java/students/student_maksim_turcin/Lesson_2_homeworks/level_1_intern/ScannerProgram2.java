@@ -9,17 +9,17 @@ public class ScannerProgram2 {
 
         System.out.println("Enter a digit");
 
-        double firstDoubleNumber = scannerInput.nextDouble();
+        double firstNumber = scannerInput.nextDouble();
 
-        double secondDoubleNumber = scannerInput.nextDouble();
+        double secondNumber = scannerInput.nextDouble();
 
-        System.out.println(firstDoubleNumber + secondDoubleNumber);
+        System.out.println(" + = " + firstNumber + secondNumber);
 
-        System.out.println(firstDoubleNumber - secondDoubleNumber);
+        System.out.println(" - = " + (firstNumber - secondNumber));
 
-        System.out.println(firstDoubleNumber * secondDoubleNumber);
+        System.out.println(" * = " + firstNumber * secondNumber);
 
-        System.out.println(firstDoubleNumber / secondDoubleNumber);
+        System.out.println(" / = " + firstNumber / secondNumber);
 
     }
 }

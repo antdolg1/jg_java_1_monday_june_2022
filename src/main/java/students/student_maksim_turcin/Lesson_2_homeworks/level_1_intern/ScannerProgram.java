@@ -13,13 +13,13 @@ public class ScannerProgram {
 
         int secondNumber = scannerInput.nextInt();
 
-        System.out.println(firstNumber + secondNumber);
+        System.out.println(" + = " + firstNumber + secondNumber);
 
-        System.out.println(firstNumber - secondNumber);
+        System.out.println(" - = " + (firstNumber - secondNumber));
 
-        System.out.println(firstNumber * secondNumber);
+        System.out.println(" * = " + firstNumber * secondNumber);
 
-        System.out.println(firstNumber / secondNumber);
+        System.out.println(" / = " + firstNumber / secondNumber);
 
     }
 }
