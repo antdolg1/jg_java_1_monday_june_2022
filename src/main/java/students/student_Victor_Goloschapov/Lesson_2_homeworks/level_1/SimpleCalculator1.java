@@ -33,6 +33,5 @@ public class SimpleCalculator1 {
         System.out.println("Subtraction result: " + substResult);
         System.out.println("Division result: " + divideResult);
         System.out.println("Multiplication result: " + multResult);
-
     }
 }
