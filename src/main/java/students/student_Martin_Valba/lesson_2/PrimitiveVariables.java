@@ -37,7 +37,5 @@ public class PrimitiveVariables {
         System.out.println("________________");
         System.out.println("very " + "hot " + "day ");
         System.out.println("very hot day");
-
     }
 }
-
