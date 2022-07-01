@@ -1,7 +1,6 @@
 package main.java.students.student_Martin_Valba.lesson_2;
 
 public class PrimitiveVariables {
-
     public static void main(String[] args) {
 
         byte myByte = 6;
@@ -39,11 +38,6 @@ public class PrimitiveVariables {
         System.out.println("very " + "hot " + "day ");
         System.out.println("very hot day");
 
-
-
-
-
     }
-
 }
 

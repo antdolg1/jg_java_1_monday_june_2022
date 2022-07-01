@@ -1,4 +1,4 @@
-package main.java.students.student_Martin_Valba;
+package main.java.students.student_Martin_Valba.lesson_2;
 
 public class Variable {
     public static void main(String[] args) {
@@ -25,12 +25,7 @@ public class Variable {
         final char myChar = 'B';
         System.out.println("myByte value is: " + myChar);
 
-
-
         boolean approve = true;
         boolean decline = false;
-
-
-
     }
-    }
+}
