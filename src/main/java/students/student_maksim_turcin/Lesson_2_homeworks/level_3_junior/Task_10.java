@@ -2,7 +2,7 @@ package main.java.students.student_maksim_turcin.Lesson_2_homeworks.level_3_juni
 
 import java.util.Scanner;
 
-public class RingOfTheLord {
+public class Task_10 {
 
         public static void main(String[] args) {
 
