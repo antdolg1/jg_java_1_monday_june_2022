@@ -8,7 +8,7 @@ public class Task_9 {
 
         Scanner scnInputNumber = new Scanner(System.in);
 
-        System.out.println("Enter a integer ");
+        System.out.println("Enter a integer : ");
 
         int integerNumber = scnInputNumber.nextInt();
 
