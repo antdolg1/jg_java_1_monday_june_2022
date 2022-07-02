@@ -2,7 +2,7 @@ package main.java.students.student_Denis_Kaira.Lesson_2.Homework;
 
 import java.util.Scanner;
 
-public class VivodSKonsoliRezultat2 {
+public class Task2 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
