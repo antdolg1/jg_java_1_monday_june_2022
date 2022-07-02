@@ -1,7 +1,7 @@
 package main.java.students.student_Denis_Kaira.Lesson_2.Homework;
 
 import java.util.Scanner;
-public class VivodSKonsoliRezultat {
+public class Task1 {
 
     public static void main(String[] args) {
 
