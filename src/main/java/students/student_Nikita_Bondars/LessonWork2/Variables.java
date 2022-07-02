@@ -19,7 +19,7 @@ public class Variables {
         System.out.println("myFloat value is: " + myFloat);
 
         double myDouble = 3.123456789;
-        System.out.println("myDouble value is: " + myDouble );
+        System.out.println("myDouble value is: " + myDouble);
 
         boolean myBoolean = true; // Либо false
         System.out.println("myBoolean value is: " + myBoolean);
