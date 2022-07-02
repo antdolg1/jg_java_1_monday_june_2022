@@ -3,11 +3,12 @@
 Функционал класса писать не надо.
 Для сдачи работы создайте исправленный класс.
 
-class Turtle {
+class LoginService {
 
-	public static void main(String[] args)
-
+	public static void main(String[] args) {
+		System.out.println("You can login!");
 	}
+
 
 }
 
