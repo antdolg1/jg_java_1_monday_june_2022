@@ -1,6 +1,6 @@
-package main.java.students.student_leonards_petkevics.leosson_1;
+package main.java.students.student_leonards_petkevics.leosson_1.Homework;
 
-public class TaskEleven {
+public class Task_11 {
     public static void main (String[] args){
 
         int a = 10;
@@ -9,6 +9,6 @@ public class TaskEleven {
         System.out.println (a + b);
         int c = 96;
         int d = 3;
-        System.out.println(a/b);
+        System.out.println(a / b);
     }
 }
