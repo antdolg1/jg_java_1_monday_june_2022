@@ -17,6 +17,7 @@ public class Task_1_Scanner {
 
         System.out.println(firstNumber + " + " + secondNumber + " = " + (firstNumber + secondNumber));
 
+
     }
 }
 
