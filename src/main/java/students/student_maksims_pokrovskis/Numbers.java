@@ -1,4 +1,4 @@
-package main.java.teacher.students.student_maksims_pokrovskis;
+package main.java.students.student_maksims_pokrovskis;
 
 public class Numbers {
     public static void main(String [] args) {
