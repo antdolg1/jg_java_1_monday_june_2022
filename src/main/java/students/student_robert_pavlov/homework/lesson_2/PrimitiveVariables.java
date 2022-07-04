@@ -1,4 +1,4 @@
-package main.java.students.student_robert_pavlov.lesson_2;
+package main.java.students.student_robert_pavlov.homework.lesson_2;
 
 public class PrimitiveVariables {
 
@@ -16,7 +16,7 @@ public class PrimitiveVariables {
         long myLong = 1_000_000;
         System.out.println("myLong value is: " + myLong);
 
-        float myFloat =  3.145455437f;
+        float myFloat = 3.145455437f;
         System.out.println("myFloat value is: " + myFloat);
 
         double myDouble = 3.145455437;
