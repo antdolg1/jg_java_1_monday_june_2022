@@ -45,7 +45,7 @@
 2. Синхронизируйте основную ветку на вашем компьютере с возможными изменениями других участников проекта\
    Для синхронизации содержимого ветки выполните: `Git > Update Project > Merge incoming changes into the current branch`
 
-3. Создайте новую ветку для изоляции вашего решения, в названии следуйте форме: `st-john-doe-lesson-2-level-1-task-3`\
+3. Создайте новую ветку для изоляции вашего решения, в названии следуйте форме: `st-john-doe-lesson-2-level-1`\
    Для создания новой ветки выполните: `Git > Branches... > + New Branch`
 
 4. Зафиксируйте (`commit`) файлы с решением в локальной истории Git\
@@ -64,6 +64,7 @@
 
 * [Лекция 1](https://www.youtube.com/watch?v=n094gyt28Qs)
 * [Лекция 2](https://www.youtube.com/watch?v=BmL1mzgzEBE)
+* [Лекция 3](https://www.youtube.com/watch?v=NBqfbOKzi4A)
 
 ---
 
