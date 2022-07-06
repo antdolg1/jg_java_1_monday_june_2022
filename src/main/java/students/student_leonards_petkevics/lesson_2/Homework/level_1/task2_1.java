@@ -13,7 +13,7 @@ public class task2_1 {
         System.out.print("Enter the second number: ");
         secondNumber = input.nextDouble();
 
-        secondNumber = firstNumber+(secondNumber );
+        secondNumber = firstNumber + (secondNumber );
 
         System.out.print("Answer is: "+ secondNumber);
 

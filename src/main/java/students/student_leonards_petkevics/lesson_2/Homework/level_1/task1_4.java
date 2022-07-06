@@ -14,7 +14,7 @@ public class task1_4 {
         System.out.print("Enter the second number: ");
         secondNumber = input.nextInt();
 
-        secondNumber = firstNumber/(secondNumber );
+        secondNumber = firstNumber / (secondNumber );
 
         System.out.print("Answer is: "+ secondNumber);
     }
