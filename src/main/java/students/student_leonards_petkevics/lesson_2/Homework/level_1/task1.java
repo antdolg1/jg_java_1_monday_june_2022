@@ -16,7 +16,7 @@ public class task1 {
 
         secondNumber = firstNumber - (secondNumber );
 
-        System.out.print("Answer is: "+ secondNumber);
+        System.out.println("Answer is: "+ secondNumber);
 
     }
 }
