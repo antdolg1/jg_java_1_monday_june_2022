@@ -7,6 +7,8 @@ class BankAccount {
 
 	public static void main(String[] args) {
 
+	}
+
 }
 
 Цель этого задания: обратить ваше внимание на синтаксис
