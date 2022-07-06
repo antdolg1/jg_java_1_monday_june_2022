@@ -18,7 +18,7 @@ public class task1_2 {
 
         fourthNumber = input.nextInt();
 
-        fourthNumber = thirdNumber+(fourthNumber );
+        fourthNumber = thirdNumber + (fourthNumber );
 
         System.out.print("Answer is: "+ fourthNumber);
     }
