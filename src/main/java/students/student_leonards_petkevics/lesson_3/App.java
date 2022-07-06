@@ -13,6 +13,8 @@ public class App {
         myDog.name = "Leo";
         myDog.age = 12;
 
+        myDog.name = myDog.name + "Junior";
+
         myDog.greeting();
         System.out.println("myDog age after two years will be: " +myDog.yearsAfterTwoYears());
 
