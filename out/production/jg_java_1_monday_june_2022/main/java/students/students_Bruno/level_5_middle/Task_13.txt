@@ -1,0 +1,7 @@
+Посмотреть видео:
+
+Tech Talk: Linus Torvalds on git (профессиональный спич от создателя Git):
+
+Linus Torvalds visits Google to share his thoughts on git, the source control management system he created two years ago (2007).
+
+https://www.youtube.com/watch?v=4XpnKHJAok8
