@@ -1,6 +1,6 @@
 package main.java.students.student_leonards_petkevics.lesson_3;
 
-public class App {
+ class App {
     public static void main(String[] args) {
         Dog myDog = new Dog();
         Dog yourDog = new Dog(2, "John", 45);
@@ -17,7 +17,6 @@ public class App {
 
         myDog.greeting();
         System.out.println("myDog age after two years will be: " +myDog.yearsAfterTwoYears());
-
 
     }
 }

@@ -1,6 +1,6 @@
 package main.java.students.student_leonards_petkevics.lesson_3;
 
-public class Dog {
+class Dog {
 
     // Data, state,
 

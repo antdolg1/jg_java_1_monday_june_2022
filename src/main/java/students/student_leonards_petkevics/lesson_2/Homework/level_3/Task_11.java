@@ -2,7 +2,7 @@ package main.java.students.student_leonards_petkevics.lesson_2.Homework.level_3;
 
 import java.util.Scanner;
 
-public class Task_11 {
+ class Task_11 {
     public static void main(String[] args){
 
         double firstNumber;

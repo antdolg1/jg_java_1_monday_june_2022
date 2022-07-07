@@ -1,6 +1,6 @@
 package main.java.students.student_leonards_petkevics.lesson_2.Homework.level_7;
 
-public class Task_30 {
+ class Task_30 {
     public static void main(String[] args) {
 
         int numberOne = 10;

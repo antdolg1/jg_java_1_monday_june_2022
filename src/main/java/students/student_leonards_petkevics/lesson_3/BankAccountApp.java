@@ -2,7 +2,7 @@ package main.java.students.student_leonards_petkevics.lesson_3;
 
 import java.util.Scanner;
 
-public class BankAccountApp {
+ class BankAccountApp {
     public static void main(String[] args) {
 
         BankAccount customerOne = new BankAccount("John");
