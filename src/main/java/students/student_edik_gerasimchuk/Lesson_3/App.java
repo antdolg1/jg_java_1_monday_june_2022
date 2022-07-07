@@ -17,7 +17,7 @@ public class App {
         myDog.age = 4;
 
         myDog.greetings();
-        System.out.println("myDog age after two years will be: " + myDog.yearsAfterTwoYears());
+        System.out.println("Stans age after two years will be: " + myDog.yearsAfterTwoYears());
 
     }
 

@@ -1,4 +1,4 @@
-package main.java.students.student_Edik_Gerasimchuk.Lesson_2.Homework.Lesson_2;
+package main.java.students.student_Edik_Gerasimchuk.Lesson_2.Homework.Lesson_2.Level_1;
 
 import java.util.Scanner;
 
