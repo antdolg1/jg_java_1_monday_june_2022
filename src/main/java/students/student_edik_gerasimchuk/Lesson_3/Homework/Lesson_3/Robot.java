@@ -1,9 +1,12 @@
 package main.java.students.student_Edik_Gerasimchuk.Lesson_3.Homework.Lesson_3;
 
-public class Robot {
+class Robot {
 
-    public static void main(String[] args){
+    public Robot sayHello() {
 
+        void speak() {
+            System.out.println("Hello");
 
+        }
     }
 }
