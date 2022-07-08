@@ -2,8 +2,8 @@ package lesson_3.homework.level_3.task_11;
 
 class Robot {
     String name;
-    public Robot(String roboName) {
-        this.name = roboName;
+    public Robot(String robotName) {
+        this.name = robotName;
     }
     public void sayHello() {
         System.out.println("Hello");
