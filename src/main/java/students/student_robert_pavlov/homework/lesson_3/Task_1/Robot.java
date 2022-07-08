@@ -14,9 +14,7 @@ public class Robot {
 
     public static void sayYourName2() {System.out.println("My name is Robo2");}
     // второй робот не получился как было задуманно в задании
-
-
-    }
+}
 
 
 

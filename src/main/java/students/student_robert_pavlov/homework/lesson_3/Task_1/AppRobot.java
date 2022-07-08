@@ -7,7 +7,6 @@ public class AppRobot {
         Robot myRobot = new Robot();
         Robot yourRobot = new Robot();
 
-
         myRobot.speak();
         Robot.sayYourName();
 
