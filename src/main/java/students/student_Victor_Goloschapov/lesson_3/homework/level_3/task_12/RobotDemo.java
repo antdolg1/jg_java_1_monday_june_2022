@@ -6,15 +6,15 @@ public class RobotDemo {
         robot1.sayHello();
         robot1.sayYourName();
 
-        Robot robot2 = new Robot("ROBO2");
+        Robot robot2 = new Robot("Rider");
         robot2.sayHello();
         robot2.sayYourName();
 
-        Robot robot3 = new Robot("ROBO3");
+        Robot robot3 = new Robot("Terminator");
         robot3.sayHello();
         robot3.sayYourName();
 
-        Robot robot4 = new Robot("ROBO4");
+        Robot robot4 = new Robot("Numby");
         robot4.sayHello();
         robot4.sayYourName();
     }
