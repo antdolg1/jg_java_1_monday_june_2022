@@ -5,10 +5,10 @@ class Robot {
     Robot(String roboName) {
         this.name = roboName;
     }
-    void sayHello() {
+    public void sayHello() {
         System.out.println("Hello");
     }
-    void sayYourName() {
+    public void sayYourName() {
         System.out.println("My name is: " + name);
     }
 }
