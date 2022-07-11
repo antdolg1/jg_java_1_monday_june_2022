@@ -1,4 +1,4 @@
-package main.java.students.student_robert_pavlov.homework.lesson_3.Level_5;
+package main.java.students.student_robert_pavlov.homework.lesson_3.Dog;
 
 public class Dog {
 
