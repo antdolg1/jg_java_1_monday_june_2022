@@ -1,0 +1,28 @@
+Q2. Describe the switch statement.
+What object types can be used in the switch clause?
+
+Switch allows the selection of several execution paths
+based on a variables' value.
+
+Each path is labeled with case or default,
+the switch statement evaluates each case expression
+for a match and executes all statements that follow
+the matching label until a break statement is found.
+If it can't find a match, the default block will be executed instead:
+
+switch (yearsOfJavaExperience) {
+    case 0:
+        System.out.println("Student");
+        break;
+    case 1:
+        System.out.println("Junior");
+        break;
+    case 2:
+        System.out.println("Middle");
+        break;
+    default:
+        System.out.println("Senior");
+}
+
+We can use byte, short, char, int, their wrapped versions,
+enums and Strings as switch values.

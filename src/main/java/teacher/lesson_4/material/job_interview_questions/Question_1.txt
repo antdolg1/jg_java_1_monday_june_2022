@@ -1,0 +1,18 @@
+Q1. Describe the if-then and if-then-else statements.
+What types of expressions can be used as conditions?
+
+Both statements tell our program to execute the code
+inside of them only if a particular condition evaluates to true.
+However, the if-then-else statement provides a secondary path
+of execution in case the if clause evaluates to false:
+
+if (age >= 21) {
+    // ...
+} else {
+    // ...
+}
+
+Unlike other programming languages, Java only supports
+boolean expressions as conditions.
+If we try to use a different type of expression,
+we'll get a compilation error.

@@ -1,0 +1,34 @@
+Q4. When Is It Preferable to
+Use a Switch Over an If-Then-Else Statement and Vice Versa?
+
+A switch statement is better suited when testing
+a single variable against many single values or
+when several values will execute the same code:
+
+switch (month) {
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        days = 31;
+        break;
+    case 2:
+        days = 28;
+        break;
+    default:
+        days = 30;
+}
+
+An if-then-else statement is preferable when we need
+to check ranges of values or multiple conditions:
+
+if (aPassword == null || aPassword.isEmpty()) {
+    // empty password
+} else if (aPassword.length() < 8 || aPassword.equals("12345678")) {
+    // weak password
+} else {
+    // good password
+}
