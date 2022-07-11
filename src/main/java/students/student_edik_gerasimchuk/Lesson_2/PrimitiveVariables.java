@@ -30,7 +30,6 @@ public class PrimitiveVariables {
         System.out.println("myChar result is: " + myChar);
 
 
-
-        }
     }
+}
 
