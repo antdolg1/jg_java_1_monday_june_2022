@@ -31,9 +31,9 @@ public class PrimitiveVariables {
         int b = 43;
 
         System.out.println("-= My variables values =-");
-        System.out.println("a variable value: "+a +" some text "+b +a +" "+a +a +b);
+        System.out.println("a variable value: "+ a +" some text "+ b + a +" "+ a + a + b);
         System.out.println();
-        System.out.println("b variable value: "+b);
+        System.out.println("b variable value: "+ b);
         System.out.println("________________");
         System.out.println("very " + "hot " + "day ");
         System.out.println("very hot day");
