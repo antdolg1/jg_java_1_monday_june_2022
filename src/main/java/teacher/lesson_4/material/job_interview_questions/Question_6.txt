@@ -1,0 +1,13 @@
+Q6. Which of the following is a correct syntax of if statement?
+
+a) if (boolean_expression)
+      statement;
+
+b) if (boolean_expression) {
+      statement1;
+      statement2;
+   }
+
+c) Both a and b.
+
+d) None of the above.
