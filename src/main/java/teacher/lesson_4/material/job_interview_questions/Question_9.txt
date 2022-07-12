@@ -1,0 +1,22 @@
+Q9. In the given switch statement,
+what will be displayed if the value of var is 3?
+
+switch(var) {
+    case 1: System.out.println(“Hello\n”); break;
+    case 2: System.out.println(“World!\n”); break;
+    case 3: System.out.println(“Happy\n”);
+    case 4: System.out.println(“Programming\n”);
+    case 5: System.out.println(“Thanks!\n”); break;
+    default : System.out.println(“Congratulations!\n”); break;
+}
+
+a) Happy
+
+b)  Happy
+    Programming
+
+c) Happy
+   Programming
+   Thanks!
+
+d) None of the above.
