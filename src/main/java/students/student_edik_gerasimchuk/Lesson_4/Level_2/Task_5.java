@@ -20,6 +20,8 @@ public class Task_5 {
 
         } else if (firstNumber < secondNumber) {
             System.out.println("The largest number is :" + secondNumber);
+        } else {
+            System.out.println("Numbers are equal");
 
         }
     }
