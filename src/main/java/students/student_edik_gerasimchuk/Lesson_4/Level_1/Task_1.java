@@ -2,7 +2,7 @@ package main.java.students.student_Edik_Gerasimchuk.Lesson_4.Level_1;
 
 import java.util.Scanner;
 
-public class Number {
+public class Task_1 {
 
     public static void main(String[] args) {
 
@@ -20,4 +20,3 @@ public class Number {
         }
     }
 }
-//Task 1
