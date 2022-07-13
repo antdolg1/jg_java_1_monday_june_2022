@@ -20,7 +20,7 @@ public class Task_7 {
 
         } else if (firstNumber != secondNumber) {
             System.out.println("Numbers are different");
-
         }
+
     }
 }

@@ -14,25 +14,26 @@ public class Task_6 {
 
         System.out.println("Write a second number :");
         int secondNumber = scanner.nextInt();
-//Первый вариант поставить в скобках "!"
+//Первый вариант поставить в скобках "!" но тогда else не работает (что в этом случае я должен был сделать?)
         if (!(firstNumber > secondNumber)) {
             System.out.println("The lowest number is: " + firstNumber);
 
         } else if (!(firstNumber < secondNumber)) {
             System.out.println("The lowest number is :" + secondNumber);
-
-            System.out.println("Write a second number :");
-
-            // int secondNumber = scanner.nextInt();
-
-            // if (firstNumber < secondNumber) {
-            //    System.out.println("The lowest number is: " + firstNumber);
-
-            // } else if (firstNumber > secondNumber) {
-            //    System.out.println("The lowest number is :" + secondNumber);
-
-//Второй вариант поменять знаки местами "<" и ">" (У меня оба варианта работают =) )
-
+        } else {
+            System.out.println("Numbers are equal");
         }
+
+        // int secondNumber = scanner.nextInt();
+
+        // if (firstNumber < secondNumber) {
+        //    System.out.println("The lowest number is: " + firstNumber);
+
+        // } else if (firstNumber > secondNumber) {
+        //    System.out.println("The lowest number is :" + secondNumber);
+
+//Второй вариант поменять знаки местами "<" и ">"  тогда else работает
+
+
     }
 }
