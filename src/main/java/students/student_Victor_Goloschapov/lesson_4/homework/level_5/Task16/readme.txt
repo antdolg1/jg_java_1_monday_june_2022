@@ -1,4 +1,4 @@
-Created 2 versions of Light Color Detector applications
+Created 2 versions of Light Color Detector application
 ========================================
 1. First version located in Task16 main directory
 - is using test methods
