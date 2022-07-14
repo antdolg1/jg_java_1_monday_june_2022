@@ -2,7 +2,7 @@ package lesson_4.homework.level_1;
 
 import java.util.Scanner;
 
-public class Task_4 {
+public class Task4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int number;
