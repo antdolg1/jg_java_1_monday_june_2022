@@ -7,4 +7,22 @@ public class LightColorDetectorTest {
         //app logic
     }
     //test methods
+    void getVioletColor() {
+        //method code
+    }
+    void getBlueColor() {
+        //method code
+    }
+    void getGreenColor() {
+        //method code
+    }
+    void getYellowColor() {
+        //method code
+    }
+    void getOrangeColor() {
+        //method code
+    }
+    void getRedColor() {
+        //method code
+    }
 }
