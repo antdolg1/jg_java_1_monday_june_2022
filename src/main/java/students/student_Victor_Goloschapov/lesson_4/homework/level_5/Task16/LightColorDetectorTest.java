@@ -7,8 +7,10 @@ public class LightColorDetectorTest {
         Scanner input = new Scanner(System.in);
         int lightWaveLength;
 
+        System.out.println("Welcome to color detector application");
+        System.out.println("Application will detect color depending on light wave length");
+        System.out.println("======================================\n");
         System.out.print("Please enter light wave length: ");
-
         lightWaveLength = input.nextInt();
 
         LightColorDetectorTest colorTest = new LightColorDetectorTest();

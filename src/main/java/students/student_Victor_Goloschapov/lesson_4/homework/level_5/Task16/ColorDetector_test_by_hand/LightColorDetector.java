@@ -15,7 +15,7 @@ public class LightColorDetector {
         } else if (wavelength >= 620 && wavelength <= 750) {
             return "Red";
         } else {
-            return "Number is not in a wave length range";
+            return "Number is out of range - Invisible Light";
         }
     }
 }
