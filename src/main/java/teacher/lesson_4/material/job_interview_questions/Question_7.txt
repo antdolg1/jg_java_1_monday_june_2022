@@ -1,0 +1,21 @@
+Q7. Which of the following is a correct if-else statement?
+
+a) if (num>0)
+     System.out.println(“Positive”);
+   else
+     System.out.println(“Negative”);
+
+b) if (num>0)
+     System.out.println(“Positive”);
+     System.out.println(“%d”,num);
+   else
+     System.out.println(“Negative”);
+
+c) if (num>0)
+     System.out.println(“Positive”);
+     System.out.println(“%d”,num);
+   else
+     System.out.println (“Negative”);
+     System.out.println(“%d”,num);
+
+d) All of the above.

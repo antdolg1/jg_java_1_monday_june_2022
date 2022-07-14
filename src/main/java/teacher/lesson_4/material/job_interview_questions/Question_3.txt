@@ -1,0 +1,29 @@
+Q3. What happens when we forget to put
+a break statement in a case clause of a switch?
+
+The switch statement falls-trough.
+This means that it will continue the execution
+of all case labels until if finds a break statement,
+even though those labels don't match the expression's value.
+
+Here's an example to demonstrate this:
+
+int operation = 2;
+int number = 10;
+
+switch (operation) {
+    case 1:
+        number = number + 10;
+        break;
+    case 2:
+        number = number - 4;
+    case 3:
+        number = number / 3;
+    case 4:
+        number = number * 10;
+        break;
+}
+
+After running the code, number holds the value 20, instead of 6.
+This can be useful in situations when we want to associate the
+same action with multiple cases.
