@@ -26,7 +26,7 @@ public class LightColorDetectorTest {
         String actualResult = color.detect(waveLength);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("***Test passed. Expected color: " + expectedResult);
+            System.out.println("***Test passed. Expected color: " + expectedResult + "***");
             System.out.println("======================================");
         } else {
             System.out.println("Test failed");
@@ -42,7 +42,7 @@ public class LightColorDetectorTest {
         String actualResult = color.detect(waveLength);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("***Test passed. Expected color: " + expectedResult);
+            System.out.println("***Test passed. Expected color: " + expectedResult + "***");
             System.out.println("======================================");
         } else {
             System.out.println("Test failed");
@@ -58,7 +58,7 @@ public class LightColorDetectorTest {
         String actualResult = color.detect(waveLength);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("***Test passed. Expected color: " + expectedResult);
+            System.out.println("***Test passed. Expected color: " + expectedResult + "***");
             System.out.println("======================================");
         } else {
             System.out.println("Test failed");
@@ -74,7 +74,7 @@ public class LightColorDetectorTest {
         String actualResult = color.detect(waveLength);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("***Test passed. Expected color: " + expectedResult);
+            System.out.println("***Test passed. Expected color: " + expectedResult + "***");
             System.out.println("======================================");
         } else {
             System.out.println("Test failed");
@@ -90,7 +90,7 @@ public class LightColorDetectorTest {
         String actualResult = color.detect(waveLength);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("***Test passed. Expected color: " + expectedResult);
+            System.out.println("***Test passed. Expected color: " + expectedResult + "***");
             System.out.println("======================================");
         } else {
             System.out.println("Test failed");
@@ -106,7 +106,7 @@ public class LightColorDetectorTest {
         String actualResult = color.detect(waveLength);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("***Test passed. Expected color: " + expectedResult);
+            System.out.println("***Test passed. Expected color: " + expectedResult + "***");
             System.out.println("======================================");
         } else {
             System.out.println("Test failed");
