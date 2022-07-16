@@ -91,10 +91,10 @@ public class CalculatorTest {
     public void maxOfTwoNumbers() {
         int firstNumber = 10;
         int secondNumber = 5;
-        String expectedResult = "Max of two numbers is 10"; //не понимаю как правильно это записать чтобы не был провален тест
+        String expectedResult = "Max of two numbers is " + 10;
         Calculator calculator = new Calculator();
-        String realResult = String.valueOf(calculator.maxOfTwoNumbers(firstNumber, secondNumber));
-        if (realResult == expectedResult) {
+        String realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
+        if (realResult.equals(expectedResult)) {
             System.out.println("MaxOfTwoNumbers test = OK");
         } else {
             System.out.println("MaxOfTwoNumbers test = FAIL");
@@ -104,10 +104,10 @@ public class CalculatorTest {
     public void maxOfTwoNumbers2() {
         int firstNumber = 1;
         int secondNumber = 5;
-        String expectedResult = "Max of two numbers is " + secondNumber; //не понимаю как правильно это записать чтобы не был провален тест
+        String expectedResult = "Max of two numbers is " + 5;
         Calculator calculator = new Calculator();
-        String realResult = String.valueOf(calculator.maxOfTwoNumbers(firstNumber, secondNumber));
-        if (realResult == expectedResult) {
+        String realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
+        if (realResult.equals(expectedResult)) {
             System.out.println("MaxOfTwoNumbers test 2 = OK");
         } else {
             System.out.println("MaxOfTwoNumbers test 2 = FAIL");
@@ -117,9 +117,9 @@ public class CalculatorTest {
     public void maxOfTwoNumbers3() {
         int firstNumber = 10;
         int secondNumber = 10;
-        String expectedResult = "numbers are equals";
+        String expectedResult = "numbers are equal";
         Calculator calculator = new Calculator();
-        String realResult = String.valueOf(calculator.maxOfTwoNumbers(firstNumber, secondNumber));
+        String realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
         if (realResult == expectedResult) {
             System.out.println("MaxOfTwoNumbers test 3 = OK");
         } else {
@@ -154,6 +154,7 @@ public class CalculatorTest {
             System.out.println("MaxOfThree 2 = FAIL");
         }
     }
+
     public void maxOfThreeNumbers3() {
         int firstNumber = 10;
         int secondNumber = 15;
@@ -167,6 +168,7 @@ public class CalculatorTest {
             System.out.println("MaxOfThree 3 = FAIL");
         }
     }
+
     public void maxOfThreeNumbers4() {
         int firstNumber = 10;
         int secondNumber = 10;
@@ -180,6 +182,7 @@ public class CalculatorTest {
             System.out.println("MaxOfThree 4 = FAIL");
         }
     }
+
     public void maxOfThreeNumbers5() {
         int firstNumber = 13;
         int secondNumber = 2;
@@ -193,6 +196,7 @@ public class CalculatorTest {
             System.out.println("MaxOfThree 5 = FAIL");
         }
     }
+
     public void maxOfThreeNumbers6() {
         int firstNumber = 13;
         int secondNumber = 2;
@@ -206,6 +210,7 @@ public class CalculatorTest {
             System.out.println("MaxOfThree 6 = FAIL");
         }
     }
+
     public void maxOfThreeNumbers7() {
         int firstNumber = 13;
         int secondNumber = 22;
@@ -219,6 +224,7 @@ public class CalculatorTest {
             System.out.println("MaxOfThree 7 = FAIL");
         }
     }
+
     public void maxOfThreeNumbers8() {
         int firstNumber = 11;
         int secondNumber = 23;
@@ -232,6 +238,7 @@ public class CalculatorTest {
             System.out.println("MaxOfThree 8 = FAIL");
         }
     }
+
     public void maxOfThreeNumbers9() {
         int firstNumber = 23;
         int secondNumber = 23;
@@ -245,6 +252,7 @@ public class CalculatorTest {
             System.out.println("MaxOfThree 9 = FAIL");
         }
     }
+
     public void maxOfThreeNumbers10() {
         int firstNumber = 233;
         int secondNumber = 233;
