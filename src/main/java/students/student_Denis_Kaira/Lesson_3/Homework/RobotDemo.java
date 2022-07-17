@@ -4,7 +4,6 @@ public class RobotDemo {
 
     public static void main(String[] args) {
 
-
         Robot myRobot = new Robot("Rider");
         myRobot.sayHello();
         myRobot.sayNameIsRobo();
@@ -15,4 +14,3 @@ public class RobotDemo {
 
     }
 }
-
