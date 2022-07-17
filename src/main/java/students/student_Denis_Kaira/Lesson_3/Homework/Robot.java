@@ -1,13 +1,21 @@
 package main.java.students.student_Denis_Kaira.Lesson_3.Homework;
 
 public class Robot {
-    public static void sayHello(){
-        System.out.println("Hello");
+
+    String name;
+
+    public Robot(String name) {
+        this.name = name;
     }
-    public static void sayNameIsRobo(){
-        System.out.println("My Name Is Robo");
+    
+    public Robot() {
+    }
+    
+    void sayNameIsRobo(){
+        System.out.println("My name is " + this.name);
     }
 
-    public Robot() {
+    public static void sayHello(){
+        System.out.println("Hello");
     }
 }
