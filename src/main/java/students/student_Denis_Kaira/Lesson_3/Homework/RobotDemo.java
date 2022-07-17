@@ -5,11 +5,11 @@ public class RobotDemo {
     public static void main(String[] args) {
 
 
-        Robot myRobot = new Robot();
+        Robot myRobot = new Robot("Rider");
         myRobot.sayHello();
         myRobot.sayNameIsRobo();
 
-        Robot robot2 = new Robot();
+        Robot robot2 = new Robot("John");
         robot2.sayHello();
         robot2.sayNameIsRobo();
 
