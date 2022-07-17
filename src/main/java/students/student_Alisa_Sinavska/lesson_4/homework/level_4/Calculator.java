@@ -56,7 +56,7 @@ public class Calculator {
             return thirdNumber;
         } else if (secondNumber == firstNumber && firstNumber == thirdNumber) {
         }
-        return firstNumber;
+            return firstNumber;
     }
 }
 

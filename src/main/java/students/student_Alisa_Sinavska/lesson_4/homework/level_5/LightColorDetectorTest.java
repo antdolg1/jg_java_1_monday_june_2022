@@ -22,7 +22,7 @@ public class LightColorDetectorTest {
         String expectedResult = "Invisible Light";
         LightColorDetector lightColorDetector = new LightColorDetector();
         String realResult = lightColorDetector.detect(wavelength);
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("LCD test = OK");
         } else {
             System.out.println("LCD test = FAIL");
@@ -34,7 +34,7 @@ public class LightColorDetectorTest {
         String expectedResult = "Violet";
         LightColorDetector lightColorDetector = new LightColorDetector();
         String realResult = lightColorDetector.detect(wavelength);
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("LCD2 test = OK");
         } else {
             System.out.println("LCD2 test = FAIL");
@@ -46,7 +46,7 @@ public class LightColorDetectorTest {
         String expectedResult = "Blue";
         LightColorDetector lightColorDetector = new LightColorDetector();
         String realResult = lightColorDetector.detect(wavelength);
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("LCD3 test = OK");
         } else {
             System.out.println("LCD3 test = FAIL");
@@ -58,7 +58,7 @@ public class LightColorDetectorTest {
         String expectedResult = "Green";
         LightColorDetector lightColorDetector = new LightColorDetector();
         String realResult = lightColorDetector.detect(wavelength);
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("LCD4 test = OK");
         } else {
             System.out.println("LCD4 test = FAIL");
@@ -69,7 +69,7 @@ public class LightColorDetectorTest {
         String expectedResult = "Yellow";
         LightColorDetector lightColorDetector = new LightColorDetector();
         String realResult = lightColorDetector.detect(wavelength);
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("LCD5 test = OK");
         } else {
             System.out.println("LCD5 test = FAIL");
@@ -80,7 +80,7 @@ public class LightColorDetectorTest {
         String expectedResult = "Orange";
         LightColorDetector lightColorDetector = new LightColorDetector();
         String realResult = lightColorDetector.detect(wavelength);
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("LCD6 test = OK");
         } else {
             System.out.println("LCD6 test = FAIL");
@@ -91,7 +91,7 @@ public class LightColorDetectorTest {
         String expectedResult = "Red";
         LightColorDetector lightColorDetector = new LightColorDetector();
         String realResult = lightColorDetector.detect(wavelength);
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("LCD7 test = OK");
         } else {
             System.out.println("LCD7 test = FAIL");

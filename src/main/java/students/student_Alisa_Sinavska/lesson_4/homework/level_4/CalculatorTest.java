@@ -80,7 +80,7 @@ public class CalculatorTest {
         int number = 10;
         boolean expectedResult = true;
         Calculator calculator = new Calculator();
-        Boolean realResult = calculator.isEven(number);
+        boolean realResult = calculator.isEven(number);
         if (realResult == expectedResult) {
             System.out.println("isEven test = OK");
         } else {
@@ -120,7 +120,7 @@ public class CalculatorTest {
         String expectedResult = "numbers are equal";
         Calculator calculator = new Calculator();
         String realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("MaxOfTwoNumbers test 3 = OK");
         } else {
             System.out.println("MaxOfTwoNumbers test 3 = FAIL");
