@@ -1,0 +1,4 @@
+Q13. What is the two-dimensional array?
+
+     An array of an array in Java. We can declare them like
+     int[][] p = new int[3][3] which is a matrix of 3×3.

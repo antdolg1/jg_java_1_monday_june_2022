@@ -1,0 +1,4 @@
+Q8. Can we change the size of an array at run time?
+
+No we cannot change the array size.
+Though there are similar data types available which allow a change in size.

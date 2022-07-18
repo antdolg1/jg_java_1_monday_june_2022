@@ -1,0 +1,10 @@
+Создайте в классе ArrayUtil метод для
+распечатки массива целых чисел на консоль.
+
+class ArrayUtil {
+
+    public void printArrayToConsole(int[] array) {
+        // Напишите реализацию !!!
+    }
+
+}

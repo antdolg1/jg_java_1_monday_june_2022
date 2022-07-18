@@ -1,0 +1,5 @@
+Q5. Can you pass the negative number in Array size?
+
+    No, you can not pass the negative number as Array size.
+    If you pass a negative number in Array size then you will not get the compiler error.
+    Instead, you will get the NegativeArraySizeException at run time.

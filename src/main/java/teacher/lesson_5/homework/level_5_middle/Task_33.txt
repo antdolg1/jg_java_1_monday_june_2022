@@ -1,0 +1,10 @@
+Создайте в классе ArrayUtil метод для
+заполнения массива случайными целыми числами.
+
+class ArrayUtil {
+
+    public void fillArrayWithRandomNumbers(int[] array) {
+        // Напишите реализацию !!!
+    }
+
+}
