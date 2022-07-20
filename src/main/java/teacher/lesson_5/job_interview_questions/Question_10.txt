@@ -1,0 +1,9 @@
+Q10. What is an Anonymous Array in Java ? Give example?
+
+     An array without any name (or reference) is called an Anonymous Array. They are useful for the scenarios where we need one time usage of Array. For example,
+
+     Anonymous int array :
+     new int[] {2,3,4,5,6,7};
+
+     Anonymous String array :
+     new String[]{"Java", "Hungry"};

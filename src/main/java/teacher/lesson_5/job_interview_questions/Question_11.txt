@@ -1,0 +1,10 @@
+Q11. What is the difference between Array and ArrayList ?
+
+Array is static in size i.e of fixed length.
+Size can not be changed after declaration.
+ArrayList is dynamic in nature.
+If you add elements to an ArrayList, it will automatically increase its size.
+
+Array can contain both primitive and Object data types.
+ArrayList does not contain primitive data types.
+It only contains object entries.

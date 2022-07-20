@@ -1,0 +1,4 @@
+Q4. Can you change size of Array in java after creation?
+
+    You can not change the size of Array after creation.
+    Although there are other data-structures which can change size after creation.

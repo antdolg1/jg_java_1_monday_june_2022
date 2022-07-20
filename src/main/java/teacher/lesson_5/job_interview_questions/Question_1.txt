@@ -1,0 +1,8 @@
+Q1. Q1 What is an Array?
+
+    Array is a collection of similar data types.
+    It can not have different data type.
+    It can hold both primitive types (int, float, double) and object references.
+    It is fixed in length i.e static in nature.
+    Arrays are created on the heap memory not on the stack.
+    Accessing an invalid index of an Array will cause exception.

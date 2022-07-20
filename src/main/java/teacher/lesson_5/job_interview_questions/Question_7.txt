@@ -1,0 +1,15 @@
+Q7. Advantages and disadvantages of Array?
+
+    Advantages:
+
+    We can put in place other data structures like stacks, queues,
+    linked lists, trees, graphs, etc. in Array.
+    Arrays can sort multiple elements at a time.
+    We can access an element of Array by using an index.
+
+    Disadvantages:
+
+    We have to declare Size of an array in advance.
+    However, we may not know what size we need at the time of array declaration.
+    The array is static structure. It means array size is always fixed,
+    so we cannot increase or decrease memory allocation.

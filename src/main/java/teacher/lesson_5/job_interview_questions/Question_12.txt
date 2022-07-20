@@ -1,0 +1,6 @@
+Q12. When ArrayIndexOutOfBoundsException occurs?
+
+It is a run time exception.
+
+It will occur when the program tries to access invalid index of an array.
+Index higher than the size of the array or negative index.

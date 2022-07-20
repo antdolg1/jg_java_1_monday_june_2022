@@ -1,0 +1,8 @@
+Q3. What is the default value of Array for different data types?
+
+
+    Data Type                    Default value
+    byte, short, int, long             0
+    float, double                      0.0
+    boolean                            false
+    Any object                         null
