@@ -4,19 +4,24 @@ public class Task_14 {
 
     public static void main(String[] args) {
 
-        int[] nums = {1, 2, 3, 4, 5, 6};
+        int[] nums = new int[3];
 
-        float sum = 0;
+        int c = nums[0] = 5;
+        int v = nums[1] = 17;
+        int b = nums[2] = 21;
 
-        int i=0;
-        while(i < nums.length) {
+        int sum = 0;
+
+        int i = 0;
+        while (i < nums.length) {
             sum += nums[i];
             i++;
         }
 
-        float average = (sum / nums.length);
+        int average = (sum / nums.length);
 
-        System.out.println("Average : "+average);
+        System.out.println("Average : " + average);
     }
+
 }
 
