@@ -7,12 +7,19 @@ public class Task_13 {
 
         int nums[] = new int[3];
 
-        nums[0] = 4;
-        nums[1] = 37;
-        nums[2] = 61;
+        int e = nums[0] = 4;
+        int b = nums[1] = 37;
+        int c = nums[2] = 61;
+
+        System.out.println("Sum of all numbers is : " + (e+b+c));
 
         for (int a = 0; a < nums.length; a++) {
             System.out.println("[" + a + "] " + nums[a]);
+
+            //Не уверен что это так делаеться.
+            //Если поставить строку с суммой под методом For то программа продублирует это сообщение 3 раза!
+            //Вопрос почему?
+
         }
     }
 }
