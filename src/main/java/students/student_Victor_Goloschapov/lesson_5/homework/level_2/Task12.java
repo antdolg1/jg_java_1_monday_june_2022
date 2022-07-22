@@ -5,7 +5,7 @@ public class Task12 {
         double[] randomNumberArray = new double[3];
 
         for (int i = 0; i < randomNumberArray.length; i++) {
-            randomNumberArray[i] = Math.random();
+            randomNumberArray[i] = Math.rint(Math.random() * 10);
             System.out.println("Результат вывода на консоль: " + randomNumberArray[i]);
         }
     }
