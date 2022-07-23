@@ -11,7 +11,6 @@ public class Task15 {
             randomNumberArray[i] = (int) (Math.random() * rangeTill100);
             System.out.println("Элемент в массиве: " + randomNumberArray[i]);
         }
-
         for (int j = 0; j < randomNumberArray.length; j++) {
             result = randomNumberArray[j] + increment;
             System.out.println("Результат увеличения элемента на 2: " + result);
