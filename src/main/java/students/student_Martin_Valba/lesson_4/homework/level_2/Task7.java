@@ -13,7 +13,7 @@ public class Task7 {
         int number2 = scanner.nextInt();
 
         if (number1 == number2) {
-            System.out.print("Numbers are equals");
+            System.out.print("Numbers are equal");
         } else {
             System.out.print("Numbers are different");
         }
