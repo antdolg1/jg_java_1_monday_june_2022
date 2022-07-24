@@ -20,7 +20,7 @@ public class Lesson_4_Level_2_Task_7 {
         }
         else if ((x == y) || (x == z) || (z == y))
         {
-            System.out.println(" Numbers are equals ");
+
         }
         else
         {

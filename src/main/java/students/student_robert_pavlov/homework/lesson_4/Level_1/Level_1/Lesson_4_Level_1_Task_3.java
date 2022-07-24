@@ -3,9 +3,9 @@ package main.java.students.student_robert_pavlov.homework.lesson_4.Level_1.Level
 public class Lesson_4_Level_1_Task_3 {
     public static void main(String[] args) {
 
-        int day = 5;
+        int day = 7;
 
-        if (day == 1) {
+        if (day == 5) {
             System.out.println("Monday");
         } else if (day == 2) {
             System.out.println("Tuesday");
@@ -17,7 +17,7 @@ public class Lesson_4_Level_1_Task_3 {
             System.out.println("Friday");
         } else if (day == 6) {
             System.out.println("Saturday");
-        } else if (day == 8) {
+        } else if (day == 7) {
             System.out.println("Sunday");
         } else {
             System.out.println("ERROR");
