@@ -1,4 +1,4 @@
-package main.java.students.student_Martin_Valba.lesson_1;
+package main.java.students.student_Martin_Valba.lesson_1.lessoncode;
 
 public class HelloWorld {
 

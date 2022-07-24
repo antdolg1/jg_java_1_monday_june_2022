@@ -1,4 +1,4 @@
-package main.java.students.student_Martin_Valba.lesson_2;
+package main.java.students.student_Martin_Valba.lesson_2.lessoncode;
 
 public class Variable {
     public static void main(String[] args) {
