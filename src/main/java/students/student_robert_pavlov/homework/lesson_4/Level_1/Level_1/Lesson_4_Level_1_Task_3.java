@@ -1,11 +1,17 @@
 package main.java.students.student_robert_pavlov.homework.lesson_4.Level_1.Level_1;
 
+import java.util.Scanner;
+
 public class Lesson_4_Level_1_Task_3 {
     public static void main(String[] args) {
 
-        int day = 7;
+        int day;
+        System.out.println(" enter the number ");
 
-        if (day == 5) {
+        Scanner input = new Scanner(System.in);
+        day = input.nextInt();
+
+        if (day == 1) {
             System.out.println("Monday");
         } else if (day == 2) {
             System.out.println("Tuesday");
