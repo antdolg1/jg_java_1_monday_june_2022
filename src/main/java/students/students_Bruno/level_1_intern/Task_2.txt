@@ -1,4 +1,0 @@
-Установить последнюю версию среды разработки
-(IntelliJ Idea Community Edition) на свой компьютер:
-
-https://www.jetbrains.com/idea/
