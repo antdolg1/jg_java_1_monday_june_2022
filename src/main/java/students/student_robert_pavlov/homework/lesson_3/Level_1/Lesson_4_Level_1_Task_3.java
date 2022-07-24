@@ -1,4 +1,4 @@
-package main.java.students.student_robert_pavlov.homework.lesson_4.Level_1.Level_1;
+package main.java.students.student_robert_pavlov.homework.lesson_3.Level_1;
 
 public class Lesson_4_Level_1_Task_3 {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Lesson_4_Level_1_Task_3 {
         } else if (day == 3) {
             System.out.println("Wednesday");
         } else if (day == 4) {
-            System.out.println("Thursday");
+            System.out.println ("Thursday");
         } else if (day == 5) {
             System.out.println("Friday");
         } else if (day == 6) {
