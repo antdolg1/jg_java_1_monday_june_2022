@@ -1,0 +1,3 @@
+Q6. Where does Array stored in JVM memory ?
+
+     Array is an object in java. So, Array is stored in heap memory in JVM.

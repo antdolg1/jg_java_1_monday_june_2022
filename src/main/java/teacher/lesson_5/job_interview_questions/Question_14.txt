@@ -1,0 +1,7 @@
+Q14. Do we have 3-dimensional arrays in Java?
+
+     Yes, Java supports N-dimensional array.
+
+     Multi-dimensional array in Java is nothing but an array of array,
+
+     Example: 2-dimensional array is an array of 1-dimensional array.

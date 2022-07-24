@@ -1,0 +1,9 @@
+Q2. How do you declare an Array in java?
+
+    You can declare an Array in java by the following way :
+
+        dataType[]    arrayVariableName  = new dataType[arraySize];
+
+    for example for int data type, you can declare an int array as :
+
+         int[]  temp = new int[256]
