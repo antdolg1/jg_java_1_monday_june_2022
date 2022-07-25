@@ -1,0 +1,59 @@
+Продолжаем улучшать код в классе DayOfTheWeekDetectorDemo.
+
+После внесённых нами изменений класс DayOfTheWeekDetectorDemo
+должен выглядеть примерно так:
+
+class DayOfTheWeekDetectorDemo {
+
+    public static void main(String[] args) {
+        DayOfTheWeekDetector detector = new DayOfTheWeekDetector();
+        int dayNumber = detector.getDayNumberFromUser();
+        String dayOfTheWeek = detector.findDayOfTheWeek(dayNumber);
+        System.out.println(dayOfTheWeek);
+    }
+
+}
+
+Сравните получившийся код в классе DayOfTheWeekDetectorDemo
+с начальной версией. Какой код читается проще?
+
+Начальная версия кода:
+
+class DayOfTheWeekDetectorDemo {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input day number between 1 and 7 : ");
+        int dayNumber = scanner.nextInt();
+        switch (firstNumber) {
+            case 1 -> System.out.println("Monday");
+            case 2 -> System.out.println("Tuesday");
+            case 3 -> System.out.println("Wednesday");
+            case 4 -> System.out.println("Thursday");
+            case 5 -> System.out.println("Friday");
+            case 6 -> System.out.println("Saturday");
+            case 7 -> System.out.println("Sunday");
+            default -> System.out.println("Not correct day number");
+        }
+    }
+
+}
+
+Код сократился с 13 до 4 строк. Но это не самое главное.
+Нам удалось разбить код на логические кусочки:
+- detector.getDayNumberFromUser();
+- detector.findDayOfTheWeek(dayNumber);
+- System.out.println(dayOfTheWeek);
+
+Благодаря этому у кода появилась структура, теперь видно
+какие действия и в какой последовательности надо сделать
+для выполнения поставленной задачи.
+
+Код в классе DayOfTheWeekDetectorDemo стало проще читать
+и в нём можно разобраться всего за пару секунд.
+
+Большой бонус в том, что нам удалось отделить алгоритм
+вычисления названия дня недели по номеру (метов findDayOfTheWeek)
+от остального кода. Теперь этот алгоритм реализован в отдельном
+мнтоде. В будущем мы сможем им воспользоваться в любом другом месте
+нашей программы если нам это понадобиться просто вызвав этот метод.

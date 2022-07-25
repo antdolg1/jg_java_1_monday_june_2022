@@ -1,0 +1,17 @@
+Q4. What is an infinite Loop? How infinite loop is declared?
+
+    Ans: An infinite loop runs without any condition and runs infinitely.
+    An infinite loop can be broken by defining any breaking logic
+    in the body of the statement blocks.
+
+    Infinite loop is declared as follows:
+
+    for (;;) {
+        // Statements to execute
+        // Add any loop breaking logic
+    }
+
+    while (true) {
+        // Statements to execute
+        // Add any loop breaking logic
+    }

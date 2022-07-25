@@ -1,0 +1,8 @@
+Q3. How can you exit anticipatedly from a loop?
+    Using the break statement, we can terminate the execution of a loop immediately:
+
+    for (int i = 0; ; i++) {
+        if (i > 10) {
+            break;
+        }
+    }

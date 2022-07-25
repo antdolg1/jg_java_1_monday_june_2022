@@ -1,0 +1,6 @@
+Q2. What is an enhanced for loop?
+    Is another syntax of the for statement designed to iterate through all the elements of a collection, array, enum or any object implementing the Iterable interface:
+
+    for (String aString : arrayOfStrings) {
+        // ...
+    }

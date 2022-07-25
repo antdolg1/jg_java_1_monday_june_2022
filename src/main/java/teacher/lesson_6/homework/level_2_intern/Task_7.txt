@@ -1,0 +1,210 @@
+Дана программа:
+
+class DayOfTheWeekDetectorDemo {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input day number between 1 and 7 : ");
+        int dayNumber = scanner.nextInt();
+        switch (firstNumber) {
+            case 1 -> System.out.println("Monday");
+            case 2 -> System.out.println("Tuesday");
+            case 3 -> System.out.println("Wednesday");
+            case 4 -> System.out.println("Thursday");
+            case 5 -> System.out.println("Friday");
+            case 6 -> System.out.println("Saturday");
+            case 7 -> System.out.println("Sunday");
+            default -> System.out.println("Not correct day number");
+        }
+    }
+
+}
+
+Присмотритесь к этому коду поближе. Он состоит как бы из двух
+частей. Первая - это получение от пользователя номера дня недели
+(scanner и все что с ним связано), вторая - это нахождение
+по номеру дня недели его названия (оператор switch).
+
+Совет: если вы можете в програме выделить несколько частей,
+постарайтесь каждую из частей программы реализовать в отдельном
+методе или классе, тоесть отделить код друг от друга.
+Это позволит сделать ваши программы более понятными.
+
+Код программы может быть написан по разному. Например он может
+быть похож на сарай в котором все вещи свалены как попало, или
+на мастерскую в которой все инструменты аккуратно разложены
+по своим местам на полочках. Где вам приятнее будет работать?
+В сарае или в мастерской? Где будет проще и быстрее найти
+нужный вам инструмент в сарае или в мастерской?
+
+Сарай и мастерская выполняют одну и ту же функцию, например
+там чинят машины. Но делают они это по разному!
+
+Профессиональный программист должен стремиться сделать из своего
+кода мастерскую, в которой всё лежит на своих местах, в которой
+будет приятно находиться и работать долгое время.
+
+Давайте попробуем навести порядок в коде класса DayOfTheWeekDetectorDemo.
+
+Первая логическая часть программы - это получение от пользователя
+номера дня недели (scanner и все что с ним связано):
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input day number between 1 and 7 : ");
+        int dayNumber = scanner.nextInt();
+
+Какое название этому коду можно дать? Что он делает?
+
+Например: getDayNumberFromUser.
+
+Название метода должно чётко говорит о том,
+что код этого метода делает.
+
+Есть ли у этого кода входные параметры? Ему нужно что то
+передать из вне, что бы он выполнил свою работу?
+
+Нет! Поэтому у этого метода не будет входных параметров:
+
+    getDayNumberFromUser()
+
+Будет ли у этого метода результат? Какой результат работы этого кода?
+Результатом работы этого кода очевидно является полученный от
+пользователя номер дня недели. Номер дня недели - это целое число,
+типа данных int. Поэтому у данного метода будет возвращаемое значение
+типа int:
+    int getDayNumberFromUser()
+
+Куда поместить код этого метода. Давайте для этой цели создадим
+отдельный класс под названием DayOfTheWeekDetector.
+
+class DayOfTheWeekDetector {
+
+    public int getDayNumberFromUser() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input day number between 1 and 7 : ");
+        return scanner.nextInt();
+    }
+
+}
+
+Давайте воспользуемся созданным нами методом:
+
+class DayOfTheWeekDetectorDemo {
+
+    public static void main(String[] args) {
+        DayOfTheWeekDetector detector = new DayOfTheWeekDetector();
+        int dayNumber = detector.getDayNumberFromUser();
+
+        switch (firstNumber) {
+            case 1 -> System.out.println("Monday");
+            case 2 -> System.out.println("Tuesday");
+            case 3 -> System.out.println("Wednesday");
+            case 4 -> System.out.println("Thursday");
+            case 5 -> System.out.println("Friday");
+            case 6 -> System.out.println("Saturday");
+            case 7 -> System.out.println("Sunday");
+            default -> System.out.println("Not correct day number");
+        }
+    }
+
+}
+
+Пришло время второй части программы.
+Вторая часть - это нахождение
+по номеру дня недели его названия (оператор switch)
+и вывод названия дня недели на консоль с помощью
+команды System.out.println:
+
+        switch (firstNumber) {
+            case 1 -> System.out.println("Monday");
+            case 2 -> System.out.println("Tuesday");
+            case 3 -> System.out.println("Wednesday");
+            case 4 -> System.out.println("Thursday");
+            case 5 -> System.out.println("Friday");
+            case 6 -> System.out.println("Saturday");
+            case 7 -> System.out.println("Sunday");
+            default -> System.out.println("Not correct day number");
+        }
+
+Данный кусок программы выполняет две задачи:
+- нахождение названия по номеру дня недели,
+- вывод на консоль названия дня недели.
+
+Это важный момент! Вывод на консоль это отдельная функция программы.
+Очень часто если программа вычисляет результат и сразу
+выводит его на консоль с помощью команды System.out.println
+то новичёк считает это единой операцией. В действительности
+это не так. Команде System.out.println нужно передать занчение,
+которое она выведет на консоль. Перед этим это значение нужно
+вычислить! Тоесть сначала нужно вычислить результат, а только
+потом его отдельной командой можно вывести на консоль.
+
+В реальных программах очень часто консоли просто нет! Результат
+вычислений нужно доставлять на веб страничку или в мобильное
+приложение на телефон. Поэтому нужно учиться отделять код
+который вычисляет результат, от кода который выводит результат
+на консоль. Еще раз повторим: вычисление результата и вывод его
+на консоль - это две совершенно разные вещи!
+
+Поэтому давайте отдельно вычислим результат (название дня недели)
+и отдельно выведем его на консоль с помощью команды
+System.out.println.
+
+
+Какое название коду вычисляющему название дня недели можно дать?
+
+    findDayOfTheWeek
+
+Нужны ли этой части программы какие нибудь входные данные
+для выполнения задачи? Будет ли у этого метода входные параметры?
+
+Да! Для того, что бы эта часть программы выполнила свою работу
+ей нужно передать номер дня недели. В метод можно передать
+входные значения через параметры. Значит у метода
+findDayOfTheWeek должен быть параметр, например int dayNumber:
+
+    findDayOfTheWeek(int dayNumber)
+
+Мы договорились реализовать код вычисления дня недели
+и вывод на консоль отдельно друг от друга. Поэтому метод
+findDayOfTheWeek будет возвращать название дня недели,
+у метода будет возвращаемое значение типа String:
+
+    String findDayOfTheWeek(int dayNumber)
+
+Давайте создадим этот метод в классе DayOfTheWeekDetector.
+
+class DayOfTheWeekDetector {
+
+    public int getDayNumberFromUser() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input day number between 1 and 7 : ");
+        return scanner.nextInt();
+    }
+
+    public String findDayOfTheWeek(int dayNumber) {
+        // реализуйте данный метод !
+    }
+
+}
+
+Создайте класс DayOfTheWeekDetectorTest и протестируйте
+метод findDayOfTheWeek(), написав автоматические тесты
+для всех сценариев.
+
+После реализации метода findDayOfTheWeek() пора им воспользоваться
+в классе DayOfTheWeekDetectorDemo:
+
+class DayOfTheWeekDetectorDemo {
+
+    public static void main(String[] args) {
+        DayOfTheWeekDetector detector = new DayOfTheWeekDetector();
+        int dayNumber = detector.getDayNumberFromUser();
+        String dayOfTheWeek = detector.findDayOfTheWeek(dayNumber);
+        System.out.println(dayOfTheWeek);
+    }
+
+}
+
+Сравните получившийся код в классе DayOfTheWeekDetectorDemo
+с начальной версией. Какой код читается проще?
