@@ -4,7 +4,7 @@ public class NumberUtilsDemo {
     public static void main(String[] args) {
         NumberUtils checkIsNumberEven = new NumberUtils();
 
-        boolean isEven = checkIsNumberEven.isEven(2);
+        boolean isEven = checkIsNumberEven.isEven(4);
         System.out.println("Is number is even?: " + isEven);
 
         boolean isEven2 = checkIsNumberEven.isEven(3);
