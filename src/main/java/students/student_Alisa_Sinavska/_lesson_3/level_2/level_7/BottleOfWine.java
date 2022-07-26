@@ -11,6 +11,6 @@ class BottleOfWine {
     this.quantity = 2;
 }
     void drinking() {
-        System.out.println("I will drink ");
+        System.out.print("I will drink ");
     }
 }

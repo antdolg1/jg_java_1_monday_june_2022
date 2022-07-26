@@ -8,13 +8,11 @@ public class Computer {
         this.manufacturer = manufacturer;
         this.model = model;
     }
-
-        void getManufacturer() {
-          System.out.println(manufacturer);
+    String getManufacturer() {
+        return manufacturer;
         }
-
-            void getModel() {
-                System.out.println(model);
+        String getModel() {
+        return model;
 
     }
 

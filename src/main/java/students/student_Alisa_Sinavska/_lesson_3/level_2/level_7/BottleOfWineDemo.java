@@ -5,7 +5,7 @@ public class BottleOfWineDemo {
 
         BottleOfWine bottleOfWine = new BottleOfWine("red");
         bottleOfWine.drinking(); // а как в данном случае можно сделать чтобы не было новой строчки?
-        System.out.println(bottleOfWine.quantity * bottleOfWine.volume + " ml of wine");
+        System.out.print(bottleOfWine.quantity * bottleOfWine.volume + " ml of wine");
 
     }
 }

@@ -11,7 +11,11 @@ public class Product {
         this.discount = discount;
     }
 
-    void actualPrice() {
-        System.out.println(regularPrice - discount);
+    void printInformation() {
+        System.out.println(name + " actual price is: " + actualPrice());
+
+    }
+    double actualPrice() {
+        return (regularPrice - discount);
     }
 }

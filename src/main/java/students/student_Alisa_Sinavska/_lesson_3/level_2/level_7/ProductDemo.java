@@ -4,8 +4,6 @@ public class ProductDemo {
     public static void main(String[] args) {
 
         Product product = new Product(58.65, 5.32);
-        System.out.println(product.name + " actual price is:");
-        product.actualPrice();
-
+        product.printInformation();
     }
 }
