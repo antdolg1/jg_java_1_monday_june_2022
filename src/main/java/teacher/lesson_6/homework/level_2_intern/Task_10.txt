@@ -1,0 +1,46 @@
+Продолжаем улучшать код в классе DayOfTheWeekDetectorDemo.
+
+class DayOfTheWeekDetectorDemo {
+
+    public static void main(String[] args) {
+        DayOfTheWeekDetector detector = new DayOfTheWeekDetector();
+        int dayNumber = detector.getDayNumberFromUser();
+
+        switch (firstNumber) {
+            case 1 -> System.out.println("Monday");
+            case 2 -> System.out.println("Tuesday");
+            case 3 -> System.out.println("Wednesday");
+            case 4 -> System.out.println("Thursday");
+            case 5 -> System.out.println("Friday");
+            case 6 -> System.out.println("Saturday");
+            case 7 -> System.out.println("Sunday");
+            default -> System.out.println("Not correct day number");
+        }
+    }
+
+}
+
+Воспользуйтесь реализацией метода findDayOfTheWeek() из
+класса DayOfTheWeekDetector и упростите код в классе DayOfTheWeekDetectorDemo.
+
+Вызовите метод findDayOfTheWeek() из класса DayOfTheWeekDetector,
+сохраните полученный результат в переменную dayOfTheWeek и
+потом отдельной командой распечатайте результат на консоль.
+
+
+После реализации метода findDayOfTheWeek() пора им воспользоваться
+в классе DayOfTheWeekDetectorDemo:
+
+class DayOfTheWeekDetectorDemo {
+
+    public static void main(String[] args) {
+        DayOfTheWeekDetector detector = new DayOfTheWeekDetector();
+        int dayNumber = detector.getDayNumberFromUser();
+        String dayOfTheWeek = detector.findDayOfTheWeek(dayNumber);
+        System.out.println(dayOfTheWeek);
+    }
+
+}
+
+Сравните получившийся код в классе DayOfTheWeekDetectorDemo
+с начальной версией. Какой код читается проще?

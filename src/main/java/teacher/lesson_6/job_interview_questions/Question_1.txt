@@ -1,0 +1,18 @@
+Q1. What types of loops does Java support?
+    Java offers three different types of loops: for, while, and do-while.
+
+    A for loop provides a way to iterate over a range of values. It's most useful when we know in advance how many times a task is going to be repeated:
+
+    for (int i = 0; i < 10; i++) {
+         // ...
+    }
+    A while loop can execute a block of statements while a particular condition is true:
+
+    while (iterator.hasNext()) {
+        // ...
+    }
+    A do-while is a variation of a while statement in which the evaluation of the boolean expression is at the bottom of the loop. This guarantees that the code will execute at least once:
+
+    do {
+        // ...
+    } while (choice != -1);

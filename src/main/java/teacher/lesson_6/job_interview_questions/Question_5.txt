@@ -1,0 +1,27 @@
+Q5. What is the difference between continue and break statement?
+
+    Ans: break and continue are two important keywords used in Loops.
+    When a break keyword is used in a loop, loop is broken instantly
+    while when continue keyword is used, current iteration is broken
+    and loop continues with next iteration.
+
+    In below example, Loop is broken when counter reaches 4.
+
+    for (counter = 0; counter < 10; counter++)
+        System.out.println(counter);
+        if (counter == 4) {
+            break;
+        }
+    }
+
+    In the below example when counter reaches 4,
+    loop jumps to next iteration and any statements
+    after the continue keyword are skipped for current iteration.
+
+    for (counter = 0; counter < 10; counter++)
+        System.out.println(counter);
+        if (counter == 4) {
+            continue;
+        }
+        System.out.println("This will not get printed when counter is 4");
+    }
