@@ -118,13 +118,3 @@ class CalculatorTest { //15 доделать
     }
 }
  // убрал  empty lines
-
-
-
-
-
-
-
-
-
-
