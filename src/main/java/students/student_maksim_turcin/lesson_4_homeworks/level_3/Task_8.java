@@ -12,9 +12,9 @@ public class Task_8 {
         System.out.println("Give me a third number :");
         int number3 = scanner.nextInt();
 
-        if (number1 == number2 && number1 == number3 && number3 == number2) {
+        if (number1 == number2 && number1 == number3) {      // убрал  number3 == number2
             System.out.println("All numbers are equal");
-        } else if (number1 != number2 && number1 != number3 && number3 != number2) {
+        } else if (number1 != number2 && number1 != number3) {
             System.out.println("All numbers are different");
         } else {
             System.out.println("Neither all are equal or different");

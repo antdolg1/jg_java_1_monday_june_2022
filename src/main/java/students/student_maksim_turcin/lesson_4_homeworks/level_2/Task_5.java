@@ -10,14 +10,14 @@ public class Task_5 {
         int number1 = scanner.nextInt();
         System.out.println("Give me a second number :");
         int number2 = scanner.nextInt();
-
+                                                                              // Оставил тут строку, вроде красиво
         if (number1 > number2) {
-            System.out.println(number1 + " more than " + number2);
+            System.out.println(number1 + " bigger than " + number2);           //bigger than
         } else if (number1 == number2) {
-    System.out.println(number1 + " equals " + number2);
+            System.out.println(number1 + " equals " + number2);
         } else {
-            System.out.println(number2 + " more than " + number1);
+            System.out.println(number2 + " bigger than " + number1);           //Formatting  зделал Ctrl + Alt + L
         }
-     }
+    }
 }
 

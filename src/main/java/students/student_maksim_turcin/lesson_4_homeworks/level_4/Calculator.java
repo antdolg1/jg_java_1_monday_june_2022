@@ -6,6 +6,7 @@ class Calculator { //15 доделать
 
         return firstNumber + secondNumber;
     }
+
     public int sub(int firstNumber, int secondNumber) {
 
         return firstNumber - secondNumber;
@@ -22,18 +23,19 @@ class Calculator { //15 доделать
     }
 
     public boolean isEven(int number) {
-           if (number % 2 == 0) {
-               return true;
-           } else {
-               return false;
+        if (number % 2 == 0) {
+            return true;
+        } else {
+            return false;
         }
- }
+    }
+
     public String maxOfTwoNumbers(int firstNumber, int secondNumber) {
         if (firstNumber > secondNumber) {
             return "Max is " + firstNumber;
         } else if (firstNumber < secondNumber) {
             return "Max is " + secondNumber;
-        } else  {
+        } else {
             return "equal";
         }
     }

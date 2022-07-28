@@ -4,7 +4,6 @@ class CalculatorTest { //15 доделать
 
     public static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();
-
         calculatorTest.sumTest();
         calculatorTest.subTest();
         calculatorTest.mulTest();
@@ -79,44 +78,46 @@ class CalculatorTest { //15 доделать
         }
     }
 
-   public void maxOfTwoNumbersTest1() {
+    public void maxOfTwoNumbersTest1() {
         int firstNumber = 15;
         int secondNumber = 5;
         String expectedResult = "Max is " + 15;
         Calculator calculator = new Calculator();
         String realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
-        if  (realResult.equals(expectedResult)) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("maxOfTwoNumbersTest1 is OK");
         } else {
             System.out.println("maxOfTwoNumbersTest1 is FAIL");
         }
     }
+
     public void maxOfTwoNumbersTest2() {
         int firstNumber = 15;
         int secondNumber = 25;
         String expectedResult = "Max is " + 25;
         Calculator calculator = new Calculator();
         String realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
-        if  (realResult.equals(expectedResult)) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("maxOfTwoNumbersTest2 is OK");
         } else {
             System.out.println("maxOfTwoNumbersTest2 is FAIL");
         }
     }
+
     public void maxOfTwoNumbersTest3() {
         int firstNumber = 1;
         int secondNumber = 1;
         String expectedResult = "equal";
         Calculator calculator = new Calculator();
         String realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
-        if  (realResult.equals(expectedResult)) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("maxOfTwoNumbersTest3 is OK");
         } else {
             System.out.println("maxOfTwoNumbersTest3 is FAIL");
         }
     }
 }
-
+ // убрал  empty lines
 
 
 
