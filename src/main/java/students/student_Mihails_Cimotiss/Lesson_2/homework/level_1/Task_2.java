@@ -1,15 +1,15 @@
-package main.java.students.student_Mihails_Cimotiss.Lesson_2.HomeworkAll;
+package main.java.students.student_Mihails_Cimotiss.Lesson_2.homework.level_1;
 
 import java.util.Scanner;
 
-public class Lesson2Level1_2 {
-    public static void main(String[] args) {
+public class Task_2 {
+    public static void main(final String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        double firstDoubleNumber = scanner.nextDouble();
+        final Scanner scanner = new Scanner(System.in);
+        final double firstDoubleNumber = scanner.nextDouble();
 
-        Scanner scanner2 = new Scanner(System.in);
-        double secondDoubleNumber = scanner2.nextDouble();
+        final Scanner scanner2 = new Scanner(System.in);
+        final double secondDoubleNumber = scanner2.nextDouble();
 
         System.out.println("Your fist input was: " + firstDoubleNumber + "; Your second input was: " + secondDoubleNumber);
         System.out.println("Let us continue with this data and  perform some mathematical actions on it!");
