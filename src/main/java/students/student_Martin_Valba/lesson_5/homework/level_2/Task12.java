@@ -1,12 +1,18 @@
 package main.java.students.student_Martin_Valba.lesson_5.homework.level_2;
 
+import java.util.Random;
+
 public class Task12 {
     public static void main(String[] args) {
-        double[] number = new double[3];
 
-        double firstRandom = Math.random();
-        double secondRandom = Math.random();
-        double thirdRandom = Math.random();
+        Random random = new Random();
+        int randomNumber = random.nextInt();
+
+        int[] number = new int[3];
+
+        int firstRandom = randomNumber;
+        int secondRandom = randomNumber;
+        int thirdRandom = randomNumber;
 
         number[0] = firstRandom;
         number[1] = secondRandom;
@@ -16,5 +22,4 @@ public class Task12 {
         System.out.println(secondRandom);
         System.out.println(thirdRandom);
     }
-
 }
