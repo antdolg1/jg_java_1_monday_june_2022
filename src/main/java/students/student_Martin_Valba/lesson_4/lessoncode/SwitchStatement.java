@@ -1,9 +1,6 @@
-package main.java.teacher.lesson_5.lessoncode;
-
-import java.util.Scanner;
+package main.java.students.student_Martin_Valba.lesson_4.lessoncode;
 
 public class SwitchStatement {
-
     public static void main(String[] args) {
 
 //        int level = 1;
@@ -50,7 +47,6 @@ public class SwitchStatement {
         }
 
         System.out.println("Your level is: " + level);
-
 
 
     }

@@ -24,6 +24,8 @@ public class Task3 {
             System.out.println("Saturday");
         } else if (number == 7) {
             System.out.println("Sunday");
+        } else {
+            System.out.println("You writing a wrong number!");
         }
     }
 }
