@@ -6,7 +6,7 @@ public class Task3 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Write a number: ");
+        System.out.print("Write a number from 1 to 7: ");
 
         int number = scanner.nextInt();
 
@@ -24,6 +24,8 @@ public class Task3 {
             System.out.println("Saturday");
         } else if (number == 7) {
             System.out.println("Sunday");
+        } else {
+            System.out.println("You writing a wrong number!");
         }
     }
 }
