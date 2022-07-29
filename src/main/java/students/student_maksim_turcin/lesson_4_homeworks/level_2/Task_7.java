@@ -10,10 +10,10 @@ public class Task_7 {
         System.out.println("Give me a second number :");
         int number2 = scanner.nextInt();
 
-        if (number1 > number2 != number1 < number2) {   // Поменял ||  на !=
-            System.out.println("Numbers are different");
-        } else {
+        if (number2 == number1) {                      // сделал проще код
             System.out.println("Numbers are equals");
+        } else {
+            System.out.println("Numbers are different");
         }
     }
 }
